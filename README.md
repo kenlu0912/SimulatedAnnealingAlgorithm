@@ -17,6 +17,13 @@
 ---
 
 3. ### Result and Discover
+
+   | Initial Temperature | Cooling rate | Times | Max Value | Min Value | Mean       | Standard Deviation |
+   | ------------------- | ------------ | ----- | --------- | --------- | ---------- | ------------------ |
+   | 500                 | 0.005        | 1214  | 405346    | 405248    | 405305.096 | 14.134             |
+   | 500                 | 0.0005       | 2119  | 405349    | 405190    | 405300.296 | 16.091             |
+   | 500                 | 0.00005      | 1339  | 405344    | 405218    | 405293.253 | 19.440             |
+   | 500                 | 0.000005     | 1336  | 405344    | 405204    | 405288.124 | 21.369             |
    - Best Value: 405349
 
    ![output_4.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/D02ED617-3D17-461B-966E-B9111E250129_2/Pymoz3vpKjVbWmY9HV6bPIUoVvqGpNeDCCp4AFqaC3Uz/output_4.png)
