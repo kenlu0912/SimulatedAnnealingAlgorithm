@@ -1,5 +1,3 @@
-# SimulatedAnnealingAlgorithm
-
 # Simulated Annealing for the Knapsack Problem
 
 1. ### Introduction
@@ -14,40 +12,40 @@
 
 2. ### Pseudocode
 
-![Image.tiff](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/33D3DDEE-445C-40FA-B72D-C76DA046DE86_2/ibknBLqLHBlILo5BYqcb2qxF5DxiWxRPcFyrhkGaYh8z/Image.tiff)
-
+   <img src="https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/StimulatedAnnealing.png" alt="drawing" width="800"/>
+   
 ---
 
 3. ### Result and Discover
    - Best Value: 405349
 
-![output_4.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/D02ED617-3D17-461B-966E-B9111E250129_2/Pymoz3vpKjVbWmY9HV6bPIUoVvqGpNeDCCp4AFqaC3Uz/output_4.png)
+   ![output_4.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/D02ED617-3D17-461B-966E-B9111E250129_2/Pymoz3vpKjVbWmY9HV6bPIUoVvqGpNeDCCp4AFqaC3Uz/output_4.png)
 
    - Because using Simulated Annealing, the acceptance probability is higher at the first, and lower in the end.
 
-![output_6.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/72B08D6E-226C-4FA8-878F-976DE2C8FD3E_2/OH2EYJpNoqxCyaQRjzAOtcugF5hCfQJHmxPDvDFg0ZMz/output_6.png)
+   ![output_6.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/72B08D6E-226C-4FA8-878F-976DE2C8FD3E_2/OH2EYJpNoqxCyaQRjzAOtcugF5hCfQJHmxPDvDFg0ZMz/output_6.png)
 
    - As the result, the value is changeable at the first and stable in the end. The figure is the experiment under temperature=1000 and cooling rate=0.0005 for 25 times.
 
-![output.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/EC69A36A-115A-4464-9C79-6EB19D9D442E_2/NI05NWvyDzeaV8LDj8mp3t7Ky7eFsWYQj0Z9pLpVq9Az/output.png)
+   ![output.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/EC69A36A-115A-4464-9C79-6EB19D9D442E_2/NI05NWvyDzeaV8LDj8mp3t7Ky7eFsWYQj0Z9pLpVq9Az/output.png)
 
    - The error bar under different cooling rate. The standard deviation is smaller when cooling rate smaller.
 
-![output_7.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/07694261-6D61-4933-9218-874EF52EF47D_2/9bNqFg3NovTewOIytPnxTsxdbc1RlrejlW4EDO6rNXoz/output_7.png)
+   ![output_7.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/07694261-6D61-4933-9218-874EF52EF47D_2/9bNqFg3NovTewOIytPnxTsxdbc1RlrejlW4EDO6rNXoz/output_7.png)
 
    - The item which have larger density be selected frequently.
 
-![output_10\.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/C71CA9CE-BF0F-43F6-A9F6-5D953AD7FC7F_2/tqUk5Sphin4WYGlJmRBrcyas8H4q9xGmVeCEDxjRUDUz/output_10.png)
+   ![output_11.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/21D4626A-6FF4-4BD7-9C38-EECB066F8A57_2/gywbXXPX7jJy09xBrXraerOykiUFVPtBk52a3M0reMkz/output_11.png)
 
 ---
 
 4. ### Reference
 
-[Overleaf, Online LaTeX Editor](https://www.overleaf.com/read/kgcmkzqppkjm#91957a)
+   [Overleaf, Online LaTeX Editor](https://www.overleaf.com/read/kgcmkzqppkjm#91957a)
 
-[Simulated annealing - Wikipedia](https://en.wikipedia.org/wiki/Simulated_annealing)
+   [Simulated annealing - Wikipedia](https://en.wikipedia.org/wiki/Simulated_annealing)
 
-[【数之道17】金属冷却处理中隐藏的智慧-模拟退火优化算法](https://www.youtube.com/watch?v=P4p-YgidpZ4)
+   [【数之道17】金属冷却处理中隐藏的智慧-模拟退火优化算法](https://www.youtube.com/watch?v=P4p-YgidpZ4)
 
-[Wustl](https://www.math.wustl.edu/~feres/Math350Fall2012/Projects/mathproj09.pdf)
+   [Wustl](https://www.math.wustl.edu/~feres/Math350Fall2012/Projects/mathproj09.pdf)
 
