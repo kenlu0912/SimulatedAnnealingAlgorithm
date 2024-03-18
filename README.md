@@ -44,24 +44,6 @@
 
    ![output_11.png](https://res.craft.do/user/full/3bfd881b-e0e8-70e3-7a1b-80e785e33da2/doc/287F3647-C51E-4910-B8B6-72A03363C403/21D4626A-6FF4-4BD7-9C38-EECB066F8A57_2/gywbXXPX7jJy09xBrXraerOykiUFVPtBk52a3M0reMkz/output_11.png)
 
-   - In the beginning, it will select items randomly. In the middle, it will choose many items for the bag. Finally, it will remove some items and keep those with higher density. (The leftmost and topmost pixel represents item id=0, with id=1 to its right, id=2, and so on. The pixel below it represents id=101, id=201, and so on. A black dot means the item is in the bag. A white one means the item is not in the bag.)
-      - Test case 1
-
-      ![AnimatedImage.gif](https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/output_video_1.gif)
-
-      - Test case 2
-
-      ![AnimatedImage.gif](https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/output_video_2.gif)
-
-   - The color bar indicates the number of times an item is added or removed from the bag. For instance, a value of 15 means the item has been added to or removed from the bag 15 times. This shows that by using SA, most of items are added and removed multiple times to test whether it is suitable.
-      - Test case 1
-
-      ![AnimatedImage.gif](https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/output_video_1_color.gif)
-
-      - Test case 2
-
-      ![AnimatedImage.gif](https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/output_video_2_color.gif)
-
 ---
 
 4. ### Reference
