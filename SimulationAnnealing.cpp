@@ -1,7 +1,7 @@
 /*
     > File name: SimulationAnnealing.cpp
     > Author: Ken
-    > Created Time: 2020-03-14
+    > Created Time: 2023-03-14
 */
 
 // This code is use the simulated annealing algorithm to solve the Knapsack
