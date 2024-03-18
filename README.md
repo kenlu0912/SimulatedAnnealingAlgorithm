@@ -54,6 +54,8 @@
 
    - The color bar indicates the number of times an item is added or removed from the bag. For instance, a value of 15 means the item has been added to or removed from the bag 15 times. This shows that by using SA, most of items are added and removed multiple times to test whether it is suitable. But some items are not be selected during the whole program.
 
+   - I found that some items are frequently selected and then removed from the bag in each experiment. For example, id=6674 and id=9525 are selected and removed more than 100 times in every experiment. I think this is because their weight is small, so they can be added to the bag easily, but they have no value, so they are also removed easily. I also found that there are 96 items that have no value and 115 items that have value but no weight. Thus, I think we can try to ignore the items with no value and always add the items that have value but no weight to maximize the bag's value.
+
       ![AnimatedImage.gif](./output_video_color.gif)
 
 ---
