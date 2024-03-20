@@ -1,6 +1,7 @@
 # Simulated Annealing for the Knapsack Problem
 
 ### Introduction
+   ![mountains](./Mountains.png)
    - **Probabilistic Technique**: Simulated Annealing (SA) employs a probabilistic approach to approximate the global optimum of a function.
    - **Optimization in Large Spaces**: It is particularly suited for optimization problems characterized by large search spaces and multiple local optima.
    - **Metaheuristic Origin**: The technique is inspired by the metallurgical process of annealing, which involves heating and controlled cooling to improve material properties.
@@ -12,7 +13,12 @@
 
 ### Pseudocode
 
-   <img src="https://github.com/kenlu0912/SimulatedAnnealingAlgorithm/blob/main/StimulatedAnnealing.png" alt="drawing" width="800"/>
+   <img src="./StimulatedAnnealing.png" alt="drawing" width="800"/>
+
+<br>
+
+* In line 23, we don't have to worry about the probability being larger than one because $\Delta V$ is a negative number, and the exponential of a negative number is always less than one.
+   ![exp.png](./exp.png)
    
 ---
 
