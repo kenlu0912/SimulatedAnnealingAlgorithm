@@ -17,8 +17,9 @@
 
 <br>
 
-* In line 23, we don't have to worry about the probability being larger than one because $\Delta V$ is a negative number, and the exponential of a negative number is always less than one.
-   ![exp.png](./img/exp.png)
+- In line 23, we don't have to worry about the probability being larger than one because $\Delta V$ is a negative number, and the exponential of a negative number is always less than one.
+
+![exp.png](./img/exp.png)
    
 ---
 
